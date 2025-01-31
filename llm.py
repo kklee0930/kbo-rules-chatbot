@@ -87,7 +87,7 @@ def get_rag_chain():
     example_prompt = ChatPromptTemplate.from_messages(
         [
             ("human", "{input}"),
-            ("ai", "{answerf}"),
+            ("ai", "{answer}"),
         ]
     )
     
